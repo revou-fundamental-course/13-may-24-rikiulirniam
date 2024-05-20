@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Triangle</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="app-luas">
+        <div class="heading">
+          <h2>Luas Seigitiga</h2>
+        </div>
+        <div class="hero-img">
+          <img width="120" src="./triangle.png" alt="triangle" />
+        </div>
+        <div class="info-rumus">
+          <p>Rumus luas segitiga yaitu :</p>
+          <p class="rumus">L = 1/2 x a x t</p>
+          <p>Dimana :</p>
+          <p>L = Luas</p>
+          <p>a = Panjang alas</p>
+          <p>t = Tinggi</p>
+        </div>
+
+        <div class="form-luas">
+          <h3>Hitung Luas Segitiga</h3>
+          <input type="number" min="1" id="panjang_alas" placeholder="Panjang alas" />
+          <input type="number" min="1" id="tinggi" placeholder="Tinggi" />
+          <div class="output-luas">
+            <p class="rumus-luas"></p>
+            <p class="awal-luas"></p>
+            <p class="hasil-luas"></p>
+          </div>
+          <button class="submit-luas">Hitung</button>
+          <button class="reset-luas">Reset</button>
+        </div>
+      </div>
+      <div class="app-keliling">
+        <div class="heading">
+          <h2>Keliling Seigitiga</h2>
+        </div>
+        <div class="hero-img">
+          <img width="120" src="./triangle.png" alt="triangle" />
+        </div>
+        <div class="info-rumus">
+          <p>Rumus keliling segitiga yaitu :</p>
+          <p class="rumus">K = S1 + S2 + S3</p>
+          <p>Dimana :</p>
+          <p>K = Keliling</p>
+          <p>S1 = Sisi A</p>
+          <p>S2 = Sisi B</p>
+          <p>S3 = Sisi C</p>
+        </div>
+
+        <div class="form-keliling">
+          <h3>Hitung Keliling Segitiga</h3>
+          <input type="number" min="1" id="sisia" placeholder="Sisi A" />
+          <input type="number" min="1" id="sisib" placeholder="Sisi B" />
+          <input type="number" min="1" id="sisic" placeholder="Sisi C" />
+          <div class="output-keliling">
+            <p class="rumus-keliling"></p>
+            <p class="awal-keliling"></p>
+            <p class="hasil-keliling"></p>
+          </div>
+          <button class="submit-keliling">Hitung</button>
+          <button class="reset-keliling">Reset</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
